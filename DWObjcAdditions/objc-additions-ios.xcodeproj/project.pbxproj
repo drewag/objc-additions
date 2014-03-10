@@ -36,6 +36,8 @@
 		49D2CE0B18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0A18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m */; };
 		49D2CE0C18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0A18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m */; };
 		49F2CD9418CE21D800511C2D /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F2CD9318CE21D800511C2D /* UIImage+ImageEffects.m */; };
+		49F2CD9718CE2B9700511C2D /* NSDate+DWStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F2CD9618CE2B9700511C2D /* NSDate+DWStrings.m */; };
+		49F2CDA018CE385600511C2D /* UIView+DWMotionEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F2CD9F18CE385600511C2D /* UIView+DWMotionEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,10 @@
 		49D2CE0F18CD5E53007505AF /* iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS.h; sourceTree = "<group>"; };
 		49F2CD9218CE21D800511C2D /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		49F2CD9318CE21D800511C2D /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		49F2CD9518CE2B9700511C2D /* NSDate+DWStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DWStrings.h"; sourceTree = "<group>"; };
+		49F2CD9618CE2B9700511C2D /* NSDate+DWStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DWStrings.m"; sourceTree = "<group>"; };
+		49F2CD9E18CE385600511C2D /* UIView+DWMotionEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DWMotionEffects.h"; sourceTree = "<group>"; };
+		49F2CD9F18CE385600511C2D /* UIView+DWMotionEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DWMotionEffects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +240,8 @@
 				49D2CE0518CD5D86007505AF /* NSObject+DWAlert.m */,
 				49D2CDEC18CD5D22007505AF /* UIView+DWLoading.h */,
 				49D2CDED18CD5D22007505AF /* UIView+DWLoading.m */,
+				49F2CD9E18CE385600511C2D /* UIView+DWMotionEffects.h */,
+				49F2CD9F18CE385600511C2D /* UIView+DWMotionEffects.m */,
 				49D2CDF018CD5D40007505AF /* UIImage+DWFactory.h */,
 				49D2CDF118CD5D40007505AF /* UIImage+DWFactory.m */,
 				49D2CDF418CD5D4C007505AF /* UIDevice+DWHardware.h */,
@@ -242,6 +250,8 @@
 				49D2CE0A18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m */,
 				49F2CD9218CE21D800511C2D /* UIImage+ImageEffects.h */,
 				49F2CD9318CE21D800511C2D /* UIImage+ImageEffects.m */,
+				49F2CD9518CE2B9700511C2D /* NSDate+DWStrings.h */,
+				49F2CD9618CE2B9700511C2D /* NSDate+DWStrings.m */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -361,8 +371,10 @@
 				49D2CE0B18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m in Sources */,
 				49D2CDFA18CD5D6A007505AF /* DWObservableTextField.m in Sources */,
 				49D2CDEE18CD5D22007505AF /* UIView+DWLoading.m in Sources */,
+				49F2CD9718CE2B9700511C2D /* NSDate+DWStrings.m in Sources */,
 				499D2BB118CD6FAC00942C36 /* DWFakeTaskManager.m in Sources */,
 				49218C1E18CD69BC00ED86DF /* DWClassHelper.m in Sources */,
+				49F2CDA018CE385600511C2D /* UIView+DWMotionEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

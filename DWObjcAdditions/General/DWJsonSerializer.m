@@ -52,6 +52,9 @@
             }
             else if ([[value class] isSubclassOfClass:[NSDate class]]) {
                 value = RAILS_STRING(value);
+                if (!value) {
+                    value = ISO8601_STRING(value);
+                }
             }
             [output setObject:value forKey:jsonKey];
         }
@@ -88,7 +91,11 @@
         [object setValue:value forKey:property];
     }
     else if ([propertyClass isSubclassOfClass:[NSDate class]]) {
-        [object setValue:RAILS_DATE(value) forKey:property];
+        id realValue = RAILS_DATE(value);
+        if (!realValue) {
+            realValue = ISO8601_DATE(value);
+        }
+        [object setValue:realValue forKey:property];
     }
     else if ([DWClassHelper propertyWithName:property isUnsignedIntegerOnObject:object]) {
         [object setValue:@([value unsignedIntegerValue]) forKey:property];

@@ -9,9 +9,11 @@
 // Extensions
 #import "NSObject+DWAlert.h"
 #import "UIView+DWLoading.h"
+#import "UIView+DWMotionEffects.h"
 #import "UIImage+DWFactory.h"
 #import "UIDevice+DWHardware.h"
 #import "NSDateFormatter+DWDateFormats.h"
+#import "NSDate+DWStrings.h"
 #import "UIImage+ImageEffects.h"
 
 // View
