@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:DWObjcAdditions/General"
+      name = "General">
+      <FileRef
+         location = "group:DWClassHelper.h">
+      </FileRef>
+      <FileRef
+         location = "group:DWClassHelper.m">
+      </FileRef>
+      <FileRef
+         location = "group:DWJsonSerializable.h">
+      </FileRef>
+      <FileRef
+         location = "group:DWJsonSerializer.h">
+      </FileRef>
+      <FileRef
+         location = "group:DWJsonSerializer.m">
+      </FileRef>
+      <FileRef
+         location = "group:DWTaskManager.h">
+      </FileRef>
+      <FileRef
+         location = "group:DWTaskManager.m">
+      </FileRef>
+      <FileRef
+         location = "group:CGRectHelpers.h">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:DWObjcAdditions/objc-additions-ios.xcodeproj">
+   </FileRef>
+</Workspace>
