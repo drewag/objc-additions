@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (Loading)
+@interface UIView (DWLoading)
 
 - (void(^)())showLoading;
 - (void(^)())showLoadingWithMessage:(NSString *)message;

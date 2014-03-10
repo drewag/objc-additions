@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Learn Brigade. All rights reserved.
 //
 
-#import "OrientationDeferedNavigationController.h"
+#import "DWOrientationDeferedNavigationController.h"
 
-@implementation OrientationDeferedNavigationController
+@implementation DWOrientationDeferedNavigationController
 
 - (NSUInteger)supportedInterfaceOrientations {
     return [self.topViewController supportedInterfaceOrientations];

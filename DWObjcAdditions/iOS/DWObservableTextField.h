@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ObservableTextField : UITextField
+@interface DWObservableTextField : UITextField
 
 @end

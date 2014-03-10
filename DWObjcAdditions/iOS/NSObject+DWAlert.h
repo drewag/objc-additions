@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (Alert)
+@interface NSObject (DWAlert)
 
 - (void)displayAlertWithTitle:(NSString *)title
                       message:(NSString *)message

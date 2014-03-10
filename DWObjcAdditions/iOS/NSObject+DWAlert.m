@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Learn Brigade. All rights reserved.
 //
 
-#import "NSObject+Alert.h"
+#import "NSObject+DWAlert.h"
 
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
@@ -37,7 +37,7 @@
 
 @end
 
-@implementation NSObject (Alert)
+@implementation NSObject (DWAlert)
 
 - (void)displayAlertWithTitle:(NSString *)title
                       message:(NSString *)message

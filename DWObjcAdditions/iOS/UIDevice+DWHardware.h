@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIDevice (Hardware)
+@interface UIDevice (DWHardware)
 
 - (NSString *)hardwareModel;
 

@@ -1,21 +1,21 @@
 //
-//  ObservableTextView.m
-//  Notecards
+//  ObservableTextField.m
+//  HDS
 //
-//  Created by Andrew J Wagner on 8/11/13.
-//  Copyright (c) 2013 Learn Brigade. All rights reserved.
+//  Created by Andrew J Wagner on 10/11/13.
+//  Copyright (c) 2013 COHN Marketing. All rights reserved.
 //
 
-#import "ObservableTextView.h"
+#import "DWObservableTextField.h"
 
-@interface ObservableTextView ()
+@interface DWObservableTextField ()
 
 - (void)startObserving;
 - (void)textValueDidChange;
 
 @end
 
-@implementation ObservableTextView
+@implementation DWObservableTextField
 
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
@@ -36,7 +36,7 @@
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter]
         removeObserver:self
-        name:UITextViewTextDidChangeNotification object:self
+        name:UITextFieldTextDidChangeNotification object:self
     ];
 }
 
@@ -46,7 +46,7 @@
     [[NSNotificationCenter defaultCenter]
         addObserver:self
         selector:@selector(textValueDidChange)
-        name:UITextViewTextDidChangeNotification
+        name:UITextFieldTextDidChangeNotification
         object:self
     ];
 }

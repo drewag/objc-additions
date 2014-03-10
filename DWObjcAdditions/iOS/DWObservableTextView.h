@@ -10,6 +10,6 @@
 
 #import "DWPlaceholderTextView.h"
 
-@interface ObservableTextView : DWPlaceholderTextView
+@interface DWObservableTextView : DWPlaceholderTextView
 
 @end

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (Factory)
+@interface UIImage (DWFactory)
 
 + (UIImage *)imageWithColor:(UIColor *)color;
 + (UIImage *)imageForRect:(CGRect)rect withColor:(UIColor *)color andCornerRadius:(CGFloat)radius;

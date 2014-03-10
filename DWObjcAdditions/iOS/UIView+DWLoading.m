@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Learn Brigade. All rights reserved.
 //
 
-#import "UIView+Loading.h"
+#import "UIView+DWLoading.h"
 
-@implementation UIView (Loading)
+@implementation UIView (DWLoading)
 
 - (void(^)())showLoading {
     return [self showLoadingWithMessage:nil];

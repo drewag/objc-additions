@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 Learn Brigade. All rights reserved.
 //
 
-#import "UIDevice+Hardware.h"
+#import "UIDevice+DWHardware.h"
 
 #import <sys/utsname.h>
 
-@implementation UIDevice (Hardware)
+@implementation UIDevice (DWHardware)
 
 - (NSString *)hardwareModel {
     struct utsname systemInfo;

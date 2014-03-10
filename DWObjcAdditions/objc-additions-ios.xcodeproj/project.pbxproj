@@ -19,20 +19,20 @@
 		49D2CDCE18CD1FF2007505AF /* libobjc-additions-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDB618CD1FF2007505AF /* libobjc-additions-ios.a */; };
 		49D2CDD418CD1FF2007505AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49D2CDD218CD1FF2007505AF /* InfoPlist.strings */; };
 		49D2CDD618CD1FF2007505AF /* objc_additions_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDD518CD1FF2007505AF /* objc_additions_iosTests.m */; };
-		49D2CDEE18CD5D22007505AF /* UIView+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDED18CD5D22007505AF /* UIView+Loading.m */; };
-		49D2CDEF18CD5D22007505AF /* UIView+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDED18CD5D22007505AF /* UIView+Loading.m */; };
-		49D2CDF218CD5D40007505AF /* UIImage+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF118CD5D40007505AF /* UIImage+Factory.m */; };
-		49D2CDF318CD5D40007505AF /* UIImage+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF118CD5D40007505AF /* UIImage+Factory.m */; };
-		49D2CDF618CD5D4C007505AF /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF518CD5D4C007505AF /* UIDevice+Hardware.m */; };
-		49D2CDF718CD5D4C007505AF /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF518CD5D4C007505AF /* UIDevice+Hardware.m */; };
-		49D2CDFA18CD5D6A007505AF /* ObservableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF918CD5D6A007505AF /* ObservableTextField.m */; };
-		49D2CDFB18CD5D6A007505AF /* ObservableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF918CD5D6A007505AF /* ObservableTextField.m */; };
-		49D2CDFE18CD5D70007505AF /* ObservableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDFD18CD5D70007505AF /* ObservableTextView.m */; };
-		49D2CDFF18CD5D70007505AF /* ObservableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDFD18CD5D70007505AF /* ObservableTextView.m */; };
-		49D2CE0218CD5D79007505AF /* OrientationDeferedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0118CD5D79007505AF /* OrientationDeferedNavigationController.m */; };
-		49D2CE0318CD5D79007505AF /* OrientationDeferedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0118CD5D79007505AF /* OrientationDeferedNavigationController.m */; };
-		49D2CE0618CD5D86007505AF /* NSObject+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0518CD5D86007505AF /* NSObject+Alert.m */; };
-		49D2CE0718CD5D86007505AF /* NSObject+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0518CD5D86007505AF /* NSObject+Alert.m */; };
+		49D2CDEE18CD5D22007505AF /* UIView+DWLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDED18CD5D22007505AF /* UIView+DWLoading.m */; };
+		49D2CDEF18CD5D22007505AF /* UIView+DWLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDED18CD5D22007505AF /* UIView+DWLoading.m */; };
+		49D2CDF218CD5D40007505AF /* UIImage+DWFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF118CD5D40007505AF /* UIImage+DWFactory.m */; };
+		49D2CDF318CD5D40007505AF /* UIImage+DWFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF118CD5D40007505AF /* UIImage+DWFactory.m */; };
+		49D2CDF618CD5D4C007505AF /* UIDevice+DWHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF518CD5D4C007505AF /* UIDevice+DWHardware.m */; };
+		49D2CDF718CD5D4C007505AF /* UIDevice+DWHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF518CD5D4C007505AF /* UIDevice+DWHardware.m */; };
+		49D2CDFA18CD5D6A007505AF /* DWObservableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF918CD5D6A007505AF /* DWObservableTextField.m */; };
+		49D2CDFB18CD5D6A007505AF /* DWObservableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF918CD5D6A007505AF /* DWObservableTextField.m */; };
+		49D2CDFE18CD5D70007505AF /* DWObservableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDFD18CD5D70007505AF /* DWObservableTextView.m */; };
+		49D2CDFF18CD5D70007505AF /* DWObservableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDFD18CD5D70007505AF /* DWObservableTextView.m */; };
+		49D2CE0218CD5D79007505AF /* DWOrientationDeferedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0118CD5D79007505AF /* DWOrientationDeferedNavigationController.m */; };
+		49D2CE0318CD5D79007505AF /* DWOrientationDeferedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0118CD5D79007505AF /* DWOrientationDeferedNavigationController.m */; };
+		49D2CE0618CD5D86007505AF /* NSObject+DWAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0518CD5D86007505AF /* NSObject+DWAlert.m */; };
+		49D2CE0718CD5D86007505AF /* NSObject+DWAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0518CD5D86007505AF /* NSObject+DWAlert.m */; };
 		49D2CE0B18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0A18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m */; };
 		49D2CE0C18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0A18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m */; };
 /* End PBXBuildFile section */
@@ -81,20 +81,20 @@
 		49D2CDD118CD1FF2007505AF /* objc-additions-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "objc-additions-iosTests-Info.plist"; sourceTree = "<group>"; };
 		49D2CDD318CD1FF2007505AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49D2CDD518CD1FF2007505AF /* objc_additions_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objc_additions_iosTests.m; sourceTree = "<group>"; };
-		49D2CDEC18CD5D22007505AF /* UIView+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Loading.h"; sourceTree = "<group>"; };
-		49D2CDED18CD5D22007505AF /* UIView+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Loading.m"; sourceTree = "<group>"; };
-		49D2CDF018CD5D40007505AF /* UIImage+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Factory.h"; sourceTree = "<group>"; };
-		49D2CDF118CD5D40007505AF /* UIImage+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Factory.m"; sourceTree = "<group>"; };
-		49D2CDF418CD5D4C007505AF /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
-		49D2CDF518CD5D4C007505AF /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
-		49D2CDF818CD5D6A007505AF /* ObservableTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObservableTextField.h; sourceTree = "<group>"; };
-		49D2CDF918CD5D6A007505AF /* ObservableTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObservableTextField.m; sourceTree = "<group>"; };
-		49D2CDFC18CD5D70007505AF /* ObservableTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObservableTextView.h; sourceTree = "<group>"; };
-		49D2CDFD18CD5D70007505AF /* ObservableTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObservableTextView.m; sourceTree = "<group>"; };
-		49D2CE0018CD5D79007505AF /* OrientationDeferedNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrientationDeferedNavigationController.h; sourceTree = "<group>"; };
-		49D2CE0118CD5D79007505AF /* OrientationDeferedNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrientationDeferedNavigationController.m; sourceTree = "<group>"; };
-		49D2CE0418CD5D86007505AF /* NSObject+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Alert.h"; sourceTree = "<group>"; };
-		49D2CE0518CD5D86007505AF /* NSObject+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Alert.m"; sourceTree = "<group>"; };
+		49D2CDEC18CD5D22007505AF /* UIView+DWLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DWLoading.h"; sourceTree = "<group>"; };
+		49D2CDED18CD5D22007505AF /* UIView+DWLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DWLoading.m"; sourceTree = "<group>"; };
+		49D2CDF018CD5D40007505AF /* UIImage+DWFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DWFactory.h"; sourceTree = "<group>"; };
+		49D2CDF118CD5D40007505AF /* UIImage+DWFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DWFactory.m"; sourceTree = "<group>"; };
+		49D2CDF418CD5D4C007505AF /* UIDevice+DWHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+DWHardware.h"; sourceTree = "<group>"; };
+		49D2CDF518CD5D4C007505AF /* UIDevice+DWHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+DWHardware.m"; sourceTree = "<group>"; };
+		49D2CDF818CD5D6A007505AF /* DWObservableTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWObservableTextField.h; sourceTree = "<group>"; };
+		49D2CDF918CD5D6A007505AF /* DWObservableTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWObservableTextField.m; sourceTree = "<group>"; };
+		49D2CDFC18CD5D70007505AF /* DWObservableTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWObservableTextView.h; sourceTree = "<group>"; };
+		49D2CDFD18CD5D70007505AF /* DWObservableTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWObservableTextView.m; sourceTree = "<group>"; };
+		49D2CE0018CD5D79007505AF /* DWOrientationDeferedNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOrientationDeferedNavigationController.h; sourceTree = "<group>"; };
+		49D2CE0118CD5D79007505AF /* DWOrientationDeferedNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOrientationDeferedNavigationController.m; sourceTree = "<group>"; };
+		49D2CE0418CD5D86007505AF /* NSObject+DWAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DWAlert.h"; sourceTree = "<group>"; };
+		49D2CE0518CD5D86007505AF /* NSObject+DWAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DWAlert.m"; sourceTree = "<group>"; };
 		49D2CE0918CD5D9B007505AF /* NSDateFormatter+DWDateFormats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+DWDateFormats.h"; sourceTree = "<group>"; };
 		49D2CE0A18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+DWDateFormats.m"; sourceTree = "<group>"; };
 		49D2CE0F18CD5E53007505AF /* iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS.h; sourceTree = "<group>"; };
@@ -203,14 +203,14 @@
 		49D2CE0818CD5D89007505AF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				49D2CE0418CD5D86007505AF /* NSObject+Alert.h */,
-				49D2CE0518CD5D86007505AF /* NSObject+Alert.m */,
-				49D2CDEC18CD5D22007505AF /* UIView+Loading.h */,
-				49D2CDED18CD5D22007505AF /* UIView+Loading.m */,
-				49D2CDF018CD5D40007505AF /* UIImage+Factory.h */,
-				49D2CDF118CD5D40007505AF /* UIImage+Factory.m */,
-				49D2CDF418CD5D4C007505AF /* UIDevice+Hardware.h */,
-				49D2CDF518CD5D4C007505AF /* UIDevice+Hardware.m */,
+				49D2CE0418CD5D86007505AF /* NSObject+DWAlert.h */,
+				49D2CE0518CD5D86007505AF /* NSObject+DWAlert.m */,
+				49D2CDEC18CD5D22007505AF /* UIView+DWLoading.h */,
+				49D2CDED18CD5D22007505AF /* UIView+DWLoading.m */,
+				49D2CDF018CD5D40007505AF /* UIImage+DWFactory.h */,
+				49D2CDF118CD5D40007505AF /* UIImage+DWFactory.m */,
+				49D2CDF418CD5D4C007505AF /* UIDevice+DWHardware.h */,
+				49D2CDF518CD5D4C007505AF /* UIDevice+DWHardware.m */,
 				49D2CE0918CD5D9B007505AF /* NSDateFormatter+DWDateFormats.h */,
 				49D2CE0A18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m */,
 			);
@@ -220,10 +220,10 @@
 		49D2CE0D18CD5DFE007505AF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				49D2CDF818CD5D6A007505AF /* ObservableTextField.h */,
-				49D2CDF918CD5D6A007505AF /* ObservableTextField.m */,
-				49D2CDFC18CD5D70007505AF /* ObservableTextView.h */,
-				49D2CDFD18CD5D70007505AF /* ObservableTextView.m */,
+				49D2CDF818CD5D6A007505AF /* DWObservableTextField.h */,
+				49D2CDF918CD5D6A007505AF /* DWObservableTextField.m */,
+				49D2CDFC18CD5D70007505AF /* DWObservableTextView.h */,
+				49D2CDFD18CD5D70007505AF /* DWObservableTextView.m */,
 				49218C0318CD66FB00ED86DF /* DWPlaceholderTextView.h */,
 				49218C0418CD66FB00ED86DF /* DWPlaceholderTextView.m */,
 			);
@@ -233,8 +233,8 @@
 		49D2CE0E18CD5E0F007505AF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				49D2CE0018CD5D79007505AF /* OrientationDeferedNavigationController.h */,
-				49D2CE0118CD5D79007505AF /* OrientationDeferedNavigationController.m */,
+				49D2CE0018CD5D79007505AF /* DWOrientationDeferedNavigationController.h */,
+				49D2CE0118CD5D79007505AF /* DWOrientationDeferedNavigationController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -321,16 +321,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				49218C0518CD66FB00ED86DF /* DWPlaceholderTextView.m in Sources */,
-				49D2CE0218CD5D79007505AF /* OrientationDeferedNavigationController.m in Sources */,
-				49D2CDFE18CD5D70007505AF /* ObservableTextView.m in Sources */,
-				49D2CDF618CD5D4C007505AF /* UIDevice+Hardware.m in Sources */,
-				49D2CDF218CD5D40007505AF /* UIImage+Factory.m in Sources */,
-				49D2CE0618CD5D86007505AF /* NSObject+Alert.m in Sources */,
+				49D2CE0218CD5D79007505AF /* DWOrientationDeferedNavigationController.m in Sources */,
+				49D2CDFE18CD5D70007505AF /* DWObservableTextView.m in Sources */,
+				49D2CDF618CD5D4C007505AF /* UIDevice+DWHardware.m in Sources */,
+				49D2CDF218CD5D40007505AF /* UIImage+DWFactory.m in Sources */,
+				49D2CE0618CD5D86007505AF /* NSObject+DWAlert.m in Sources */,
 				49218C1F18CD69BC00ED86DF /* DWJsonSerializer.m in Sources */,
 				49218C2018CD69BC00ED86DF /* DWTaskManager.m in Sources */,
 				49D2CE0B18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m in Sources */,
-				49D2CDFA18CD5D6A007505AF /* ObservableTextField.m in Sources */,
-				49D2CDEE18CD5D22007505AF /* UIView+Loading.m in Sources */,
+				49D2CDFA18CD5D6A007505AF /* DWObservableTextField.m in Sources */,
+				49D2CDEE18CD5D22007505AF /* UIView+DWLoading.m in Sources */,
 				499D2BB118CD6FAC00942C36 /* DWFakeTaskManager.m in Sources */,
 				49218C1E18CD69BC00ED86DF /* DWClassHelper.m in Sources */,
 			);
@@ -340,15 +340,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49D2CE0318CD5D79007505AF /* OrientationDeferedNavigationController.m in Sources */,
+				49D2CE0318CD5D79007505AF /* DWOrientationDeferedNavigationController.m in Sources */,
 				49D2CE0C18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m in Sources */,
 				49D2CDD618CD1FF2007505AF /* objc_additions_iosTests.m in Sources */,
-				49D2CDF718CD5D4C007505AF /* UIDevice+Hardware.m in Sources */,
-				49D2CDFF18CD5D70007505AF /* ObservableTextView.m in Sources */,
-				49D2CDF318CD5D40007505AF /* UIImage+Factory.m in Sources */,
-				49D2CDEF18CD5D22007505AF /* UIView+Loading.m in Sources */,
-				49D2CE0718CD5D86007505AF /* NSObject+Alert.m in Sources */,
-				49D2CDFB18CD5D6A007505AF /* ObservableTextField.m in Sources */,
+				49D2CDF718CD5D4C007505AF /* UIDevice+DWHardware.m in Sources */,
+				49D2CDFF18CD5D70007505AF /* DWObservableTextView.m in Sources */,
+				49D2CDF318CD5D40007505AF /* UIImage+DWFactory.m in Sources */,
+				49D2CDEF18CD5D22007505AF /* UIView+DWLoading.m in Sources */,
+				49D2CE0718CD5D86007505AF /* NSObject+DWAlert.m in Sources */,
+				49D2CDFB18CD5D6A007505AF /* DWObservableTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

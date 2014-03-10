@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Digital Assertion. All rights reserved.
 //
 
-#import "UIImage+Factory.h"
+#import "UIImage+DWFactory.h"
 
-@implementation UIImage (Factory)
+@implementation UIImage (DWFactory)
 
 + (UIImage *)imageWithColor:(UIColor *)color {
     CGRect rect = CGRectMake(0, 0, 1, 1);
