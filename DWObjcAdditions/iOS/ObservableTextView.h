@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "NCTextView.h"
+#import "DWPlaceholderTextView.h"
 
-@interface ObservableTextView : NCTextView
+@interface ObservableTextView : DWPlaceholderTextView
 
 @end

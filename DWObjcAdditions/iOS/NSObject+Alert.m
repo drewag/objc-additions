@@ -8,6 +8,7 @@
 
 #import "NSObject+Alert.h"
 
+#import <UIKit/UIKit.h>
 #import <objc/runtime.h>
 
 @interface BlockAlertViewDelegate : NSObject<UIAlertViewDelegate>

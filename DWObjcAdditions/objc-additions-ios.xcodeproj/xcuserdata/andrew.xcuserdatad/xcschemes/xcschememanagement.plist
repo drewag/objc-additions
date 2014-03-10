@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>objc-additions-ios copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>objc-additions-ios.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>49218C2118CD6AE500ED86DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>49D2CDB518CD1FF2007505AF</key>
 		<dict>
 			<key>primary</key>

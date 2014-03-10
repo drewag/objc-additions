@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49218C0518CD66FB00ED86DF /* DWPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49218C0418CD66FB00ED86DF /* DWPlaceholderTextView.m */; };
+		49218C1E18CD69BC00ED86DF /* DWClassHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 49218C1718CD69BC00ED86DF /* DWClassHelper.m */; };
+		49218C1F18CD69BC00ED86DF /* DWJsonSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49218C1A18CD69BC00ED86DF /* DWJsonSerializer.m */; };
+		49218C2018CD69BC00ED86DF /* DWTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49218C1C18CD69BC00ED86DF /* DWTaskManager.m */; };
+		499D2BB118CD6FAC00942C36 /* DWFakeTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 499D2BB018CD6FAC00942C36 /* DWFakeTaskManager.m */; };
 		49D2CDBA18CD1FF2007505AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDB918CD1FF2007505AF /* Foundation.framework */; };
 		49D2CDC818CD1FF2007505AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDC718CD1FF2007505AF /* XCTest.framework */; };
 		49D2CDC918CD1FF2007505AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDB918CD1FF2007505AF /* Foundation.framework */; };
@@ -14,7 +19,6 @@
 		49D2CDCE18CD1FF2007505AF /* libobjc-additions-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDB618CD1FF2007505AF /* libobjc-additions-ios.a */; };
 		49D2CDD418CD1FF2007505AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49D2CDD218CD1FF2007505AF /* InfoPlist.strings */; };
 		49D2CDD618CD1FF2007505AF /* objc_additions_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDD518CD1FF2007505AF /* objc_additions_iosTests.m */; };
-		49D2CDEA18CD21AE007505AF /* General in Resources */ = {isa = PBXBuildFile; fileRef = 49D2CDE918CD21AE007505AF /* General */; };
 		49D2CDEE18CD5D22007505AF /* UIView+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDED18CD5D22007505AF /* UIView+Loading.m */; };
 		49D2CDEF18CD5D22007505AF /* UIView+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDED18CD5D22007505AF /* UIView+Loading.m */; };
 		49D2CDF218CD5D40007505AF /* UIImage+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF118CD5D40007505AF /* UIImage+Factory.m */; };
@@ -56,6 +60,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		49218C0318CD66FB00ED86DF /* DWPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWPlaceholderTextView.h; sourceTree = "<group>"; };
+		49218C0418CD66FB00ED86DF /* DWPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWPlaceholderTextView.m; sourceTree = "<group>"; };
+		49218C1518CD69BC00ED86DF /* DWCGRectHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWCGRectHelpers.h; sourceTree = "<group>"; };
+		49218C1618CD69BC00ED86DF /* DWClassHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWClassHelper.h; sourceTree = "<group>"; };
+		49218C1718CD69BC00ED86DF /* DWClassHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWClassHelper.m; sourceTree = "<group>"; };
+		49218C1818CD69BC00ED86DF /* DWJsonSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWJsonSerializable.h; sourceTree = "<group>"; };
+		49218C1918CD69BC00ED86DF /* DWJsonSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWJsonSerializer.h; sourceTree = "<group>"; };
+		49218C1A18CD69BC00ED86DF /* DWJsonSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWJsonSerializer.m; sourceTree = "<group>"; };
+		49218C1B18CD69BC00ED86DF /* DWTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWTaskManager.h; sourceTree = "<group>"; };
+		49218C1C18CD69BC00ED86DF /* DWTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTaskManager.m; sourceTree = "<group>"; };
+		49218C1D18CD69BC00ED86DF /* General.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = General.h; sourceTree = "<group>"; };
+		499D2BAF18CD6FAC00942C36 /* DWFakeTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWFakeTaskManager.h; sourceTree = "<group>"; };
+		499D2BB018CD6FAC00942C36 /* DWFakeTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWFakeTaskManager.m; sourceTree = "<group>"; };
 		49D2CDB618CD1FF2007505AF /* libobjc-additions-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libobjc-additions-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D2CDB918CD1FF2007505AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49D2CDC618CD1FF2007505AF /* objc-additions-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "objc-additions-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +81,6 @@
 		49D2CDD118CD1FF2007505AF /* objc-additions-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "objc-additions-iosTests-Info.plist"; sourceTree = "<group>"; };
 		49D2CDD318CD1FF2007505AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49D2CDD518CD1FF2007505AF /* objc_additions_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objc_additions_iosTests.m; sourceTree = "<group>"; };
-		49D2CDE918CD21AE007505AF /* General */ = {isa = PBXFileReference; lastKnownFileType = folder; path = General; sourceTree = "<group>"; };
 		49D2CDEC18CD5D22007505AF /* UIView+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Loading.h"; sourceTree = "<group>"; };
 		49D2CDED18CD5D22007505AF /* UIView+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Loading.m"; sourceTree = "<group>"; };
 		49D2CDF018CD5D40007505AF /* UIImage+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Factory.h"; sourceTree = "<group>"; };
@@ -107,10 +123,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49218C0818CD699700ED86DF /* General */ = {
+			isa = PBXGroup;
+			children = (
+				499D2BAF18CD6FAC00942C36 /* DWFakeTaskManager.h */,
+				499D2BB018CD6FAC00942C36 /* DWFakeTaskManager.m */,
+				49218C1518CD69BC00ED86DF /* DWCGRectHelpers.h */,
+				49218C1618CD69BC00ED86DF /* DWClassHelper.h */,
+				49218C1718CD69BC00ED86DF /* DWClassHelper.m */,
+				49218C1818CD69BC00ED86DF /* DWJsonSerializable.h */,
+				49218C1918CD69BC00ED86DF /* DWJsonSerializer.h */,
+				49218C1A18CD69BC00ED86DF /* DWJsonSerializer.m */,
+				49218C1B18CD69BC00ED86DF /* DWTaskManager.h */,
+				49218C1C18CD69BC00ED86DF /* DWTaskManager.m */,
+				49218C1D18CD69BC00ED86DF /* General.h */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		49D2CDAD18CD1FF2007505AF = {
 			isa = PBXGroup;
 			children = (
-				49D2CDE918CD21AE007505AF /* General */,
+				49218C0818CD699700ED86DF /* General */,
 				49D2CDEB18CD5D0F007505AF /* iOS */,
 				49D2CDCF18CD1FF2007505AF /* objc-additions-iosTests */,
 				49D2CDB818CD1FF2007505AF /* Frameworks */,
@@ -190,6 +224,8 @@
 				49D2CDF918CD5D6A007505AF /* ObservableTextField.m */,
 				49D2CDFC18CD5D70007505AF /* ObservableTextView.h */,
 				49D2CDFD18CD5D70007505AF /* ObservableTextView.m */,
+				49218C0318CD66FB00ED86DF /* DWPlaceholderTextView.h */,
+				49218C0418CD66FB00ED86DF /* DWPlaceholderTextView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -274,7 +310,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				49D2CDD418CD1FF2007505AF /* InfoPlist.strings in Resources */,
-				49D2CDEA18CD21AE007505AF /* General in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,14 +320,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49218C0518CD66FB00ED86DF /* DWPlaceholderTextView.m in Sources */,
 				49D2CE0218CD5D79007505AF /* OrientationDeferedNavigationController.m in Sources */,
 				49D2CDFE18CD5D70007505AF /* ObservableTextView.m in Sources */,
 				49D2CDF618CD5D4C007505AF /* UIDevice+Hardware.m in Sources */,
 				49D2CDF218CD5D40007505AF /* UIImage+Factory.m in Sources */,
 				49D2CE0618CD5D86007505AF /* NSObject+Alert.m in Sources */,
+				49218C1F18CD69BC00ED86DF /* DWJsonSerializer.m in Sources */,
+				49218C2018CD69BC00ED86DF /* DWTaskManager.m in Sources */,
 				49D2CE0B18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m in Sources */,
 				49D2CDFA18CD5D6A007505AF /* ObservableTextField.m in Sources */,
 				49D2CDEE18CD5D22007505AF /* UIView+Loading.m in Sources */,
+				499D2BB118CD6FAC00942C36 /* DWFakeTaskManager.m in Sources */,
+				49218C1E18CD69BC00ED86DF /* DWClassHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +378,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -376,7 +415,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -409,7 +447,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/objc_additions_ios.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "objc-additions-ios/objc-additions-ios-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -421,7 +459,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/objc_additions_ios.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "objc-additions-ios/objc-additions-ios-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -431,7 +469,6 @@
 		49D2CDDD18CD1FF2007505AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -452,7 +489,6 @@
 		49D2CDDE18CD1FF2007505AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
