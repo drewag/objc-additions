@@ -1,15 +1,17 @@
 //
-//  NSObject+Alert.h
+//  General.h
 //  objc-additions
 //
 //  Created by Andrew J Wagner on 9/7/13.
 //  Copyright (c) 2013 Drewag, LLC. All rights reserved.
 //
 
+// Helpers
 #import "DWCGRectHelpers.h"
+
+// Classes
 #import "DWJsonSerializer.h"
 #import "DWJsonSerializable.h"
-
 #import "DWTaskManager.h"
 
 // Spec Helpers

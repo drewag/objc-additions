@@ -1,9 +1,9 @@
 //
-//  CGRectHelpers.h
-//  Notecards
+//  DWCGRectHelpers.h
+//  objc-additions
 //
 //  Created by Andrew J Wagner on 8/31/13.
-//  Copyright (c) 2013 Learn Brigade. All rights reserved.
+//  Copyright (c) 2013 Drewag LLC. All rights reserved.
 //
 
 static inline CGRect CGRectResize(CGRect rect, CGFloat deltaWidth, CGFloat deltaHeight) {

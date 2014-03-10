@@ -1,9 +1,9 @@
 //
 //  NCTextView.h
-//  Notecards
+//  objc-additions-ios
 //
 //  Created by Andrew J Wagner on 11/29/13.
-//  Copyright (c) 2013 Digital Assertion. All rights reserved.
+//  Copyright (c) 2013 Drewag, LLC. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

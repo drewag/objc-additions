@@ -126,19 +126,43 @@
 		49218C0818CD699700ED86DF /* General */ = {
 			isa = PBXGroup;
 			children = (
+				49218C1D18CD69BC00ED86DF /* General.h */,
+				499D2BB318CD72C000942C36 /* Helpers */,
+				499D2BB418CD72CF00942C36 /* Classes */,
+				499D2BB218CD72AF00942C36 /* SpecHelpers */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		499D2BB218CD72AF00942C36 /* SpecHelpers */ = {
+			isa = PBXGroup;
+			children = (
 				499D2BAF18CD6FAC00942C36 /* DWFakeTaskManager.h */,
 				499D2BB018CD6FAC00942C36 /* DWFakeTaskManager.m */,
+			);
+			name = SpecHelpers;
+			sourceTree = "<group>";
+		};
+		499D2BB318CD72C000942C36 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
 				49218C1518CD69BC00ED86DF /* DWCGRectHelpers.h */,
 				49218C1618CD69BC00ED86DF /* DWClassHelper.h */,
 				49218C1718CD69BC00ED86DF /* DWClassHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		499D2BB418CD72CF00942C36 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
 				49218C1818CD69BC00ED86DF /* DWJsonSerializable.h */,
 				49218C1918CD69BC00ED86DF /* DWJsonSerializer.h */,
 				49218C1A18CD69BC00ED86DF /* DWJsonSerializer.m */,
 				49218C1B18CD69BC00ED86DF /* DWTaskManager.h */,
 				49218C1C18CD69BC00ED86DF /* DWTaskManager.m */,
-				49218C1D18CD69BC00ED86DF /* General.h */,
 			);
-			path = General;
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		49D2CDAD18CD1FF2007505AF = {

@@ -1,9 +1,9 @@
 //
 //  ObservableTextView.h
-//  Notecards
+//  objc-additions-ios
 //
 //  Created by Andrew J Wagner on 8/11/13.
-//  Copyright (c) 2013 Learn Brigade. All rights reserved.
+//  Copyright (c) 2013 Drewag, LLC. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

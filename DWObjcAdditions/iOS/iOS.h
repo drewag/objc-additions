@@ -1,6 +1,6 @@
 //
-//  NSObject+Alert.h
-//  objc-additions
+//  iOS.h
+//  objc-additions-ios
 //
 //  Created by Andrew J Wagner on 9/7/13.
 //  Copyright (c) 2013 Drewag, LLC. All rights reserved.

@@ -1,9 +1,9 @@
 //
 //  DWFakeTaskManager.h
-//  Notecards
+//  objc-additions
 //
 //  Created by Andrew J Wagner on 12/10/13.
-//  Copyright (c) 2013 Digital Assertion. All rights reserved.
+//  Copyright (c) 2013 Drewag LLC. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
