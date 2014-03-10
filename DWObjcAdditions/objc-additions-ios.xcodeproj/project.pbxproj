@@ -35,6 +35,7 @@
 		49D2CE0718CD5D86007505AF /* NSObject+DWAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0518CD5D86007505AF /* NSObject+DWAlert.m */; };
 		49D2CE0B18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0A18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m */; };
 		49D2CE0C18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0A18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m */; };
+		49F2CD9418CE21D800511C2D /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F2CD9318CE21D800511C2D /* UIImage+ImageEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,8 @@
 		49D2CE0918CD5D9B007505AF /* NSDateFormatter+DWDateFormats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+DWDateFormats.h"; sourceTree = "<group>"; };
 		49D2CE0A18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+DWDateFormats.m"; sourceTree = "<group>"; };
 		49D2CE0F18CD5E53007505AF /* iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS.h; sourceTree = "<group>"; };
+		49F2CD9218CE21D800511C2D /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		49F2CD9318CE21D800511C2D /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +240,8 @@
 				49D2CDF518CD5D4C007505AF /* UIDevice+DWHardware.m */,
 				49D2CE0918CD5D9B007505AF /* NSDateFormatter+DWDateFormats.h */,
 				49D2CE0A18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m */,
+				49F2CD9218CE21D800511C2D /* UIImage+ImageEffects.h */,
+				49F2CD9318CE21D800511C2D /* UIImage+ImageEffects.m */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -346,6 +351,7 @@
 			files = (
 				49218C0518CD66FB00ED86DF /* DWPlaceholderTextView.m in Sources */,
 				49D2CE0218CD5D79007505AF /* DWOrientationDeferedNavigationController.m in Sources */,
+				49F2CD9418CE21D800511C2D /* UIImage+ImageEffects.m in Sources */,
 				49D2CDFE18CD5D70007505AF /* DWObservableTextView.m in Sources */,
 				49D2CDF618CD5D4C007505AF /* UIDevice+DWHardware.m in Sources */,
 				49D2CDF218CD5D40007505AF /* UIImage+DWFactory.m in Sources */,

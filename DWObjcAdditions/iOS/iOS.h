@@ -12,6 +12,7 @@
 #import "UIImage+DWFactory.h"
 #import "UIDevice+DWHardware.h"
 #import "NSDateFormatter+DWDateFormats.h"
+#import "UIImage+ImageEffects.h"
 
 // View
 #import "DWObservableTextField.h"
