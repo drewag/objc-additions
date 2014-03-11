@@ -14,10 +14,14 @@
 #define ISO8601_DATE(string) [[NSDateFormatter iso8601DateTimeFormatter] dateFromString:string]
 #define ISO8601_STRING(date) [[NSDateFormatter iso8601DateTimeFormatter] stringFromDate:date]
 
+#define RSS_DATE(string) [[NSDateFormatter rssDateTimeFormatter] dateFromString:string]
+#define RSS_STRING(date) [[NSDateFormatter rssDateTimeFormatter] stringFromDate:date]
+
 @interface NSDateFormatter (DWDateFormats)
 
 + (NSDateFormatter *)railsDateTimeFormatter;
 + (NSDateFormatter *)iso8601DateTimeFormatter;
++ (NSDateFormatter *)rssDateTimeFormatter;
 
 + (NSDateFormatter *)longHumanReadableDateTimeFormatter;
 

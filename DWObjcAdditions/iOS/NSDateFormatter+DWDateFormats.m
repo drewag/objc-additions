@@ -35,6 +35,18 @@
 	return formatter;
 }
 
+
++ (NSDateFormatter *)rssDateTimeFormatter
+{
+    static NSDateFormatter *formatter = nil;
+	static dispatch_once_t onceToken;
+	dispatch_once(&onceToken, ^{
+		formatter = [[self alloc] init];
+        [formatter setDateFormat:@"EEE', 'dd MMM yyyy HH':'mm':'ss ZZZ"];
+	});
+	return formatter;
+}
+
 + (NSDateFormatter *)longHumanReadableDateTimeFormatter
 {
     static NSDateFormatter *formatter = nil;
