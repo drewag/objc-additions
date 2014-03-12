@@ -39,6 +39,7 @@
 		49F2CD9718CE2B9700511C2D /* NSDate+DWStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F2CD9618CE2B9700511C2D /* NSDate+DWStrings.m */; };
 		49F2CDA018CE385600511C2D /* UIView+DWMotionEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F2CD9F18CE385600511C2D /* UIView+DWMotionEffects.m */; };
 		49FEF20418D0C25700A7A5AE /* NSMutableArray+DWHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FEF20318D0C25700A7A5AE /* NSMutableArray+DWHelpers.m */; };
+		49FEF20D18D0D63400A7A5AE /* NSDate+DWComparisons.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FEF20C18D0D63400A7A5AE /* NSDate+DWComparisons.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,8 @@
 		49F2CD9F18CE385600511C2D /* UIView+DWMotionEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DWMotionEffects.m"; sourceTree = "<group>"; };
 		49FEF20218D0C25700A7A5AE /* NSMutableArray+DWHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+DWHelpers.h"; sourceTree = "<group>"; };
 		49FEF20318D0C25700A7A5AE /* NSMutableArray+DWHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+DWHelpers.m"; sourceTree = "<group>"; };
+		49FEF20B18D0D63400A7A5AE /* NSDate+DWComparisons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DWComparisons.h"; sourceTree = "<group>"; };
+		49FEF20C18D0D63400A7A5AE /* NSDate+DWComparisons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DWComparisons.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +290,8 @@
 			children = (
 				49FEF20218D0C25700A7A5AE /* NSMutableArray+DWHelpers.h */,
 				49FEF20318D0C25700A7A5AE /* NSMutableArray+DWHelpers.m */,
+				49FEF20B18D0D63400A7A5AE /* NSDate+DWComparisons.h */,
+				49FEF20C18D0D63400A7A5AE /* NSDate+DWComparisons.m */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -386,6 +391,7 @@
 				49D2CDFA18CD5D6A007505AF /* DWObservableTextField.m in Sources */,
 				49D2CDEE18CD5D22007505AF /* UIView+DWLoading.m in Sources */,
 				49F2CD9718CE2B9700511C2D /* NSDate+DWStrings.m in Sources */,
+				49FEF20D18D0D63400A7A5AE /* NSDate+DWComparisons.m in Sources */,
 				499D2BB118CD6FAC00942C36 /* DWFakeTaskManager.m in Sources */,
 				49218C1E18CD69BC00ED86DF /* DWClassHelper.m in Sources */,
 				49F2CDA018CE385600511C2D /* UIView+DWMotionEffects.m in Sources */,
