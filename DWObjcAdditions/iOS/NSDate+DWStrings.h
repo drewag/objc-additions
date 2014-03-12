@@ -11,6 +11,7 @@
 @interface NSDate (DWStrings)
 
 - (NSInteger)daysAgoFromNow;
-- (NSString *)longHumanReadableString;
+- (NSString *)longHumanReadableDateTimeString;
+- (NSString *)longHumanReadableDateString;
 
 @end

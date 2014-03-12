@@ -30,7 +30,7 @@
     return [difference day];
 }
 
-- (NSString *)longHumanReadableString
+- (NSString *)longHumanReadableDateTimeString
 {
     NSInteger daysAgoFromNow = [self daysAgoFromNow];
     NSMutableString *string = [NSMutableString new];
@@ -56,6 +56,16 @@
     }
 
     return string;
+}
+
+- (NSString *)longHumanReadableDateString
+{
+    NSInteger daysAgoFromNow = [self daysAgoFromNow];
+    if (daysAgoFromNow == 0) {
+        return @"Today";
+    }
+
+    return [[NSDateFormatter longHumanReadableDateFormatter] stringFromDate:self];
 }
 
 @end

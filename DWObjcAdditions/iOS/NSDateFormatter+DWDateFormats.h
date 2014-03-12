@@ -24,6 +24,7 @@
 + (NSDateFormatter *)rssDateTimeFormatter;
 
 + (NSDateFormatter *)longHumanReadableDateTimeFormatter;
++ (NSDateFormatter *)longHumanReadableDateFormatter;
 
 + (NSDateFormatter *)weekDayFormatter;
 

@@ -58,6 +58,17 @@
 	return formatter;
 }
 
++ (NSDateFormatter *)longHumanReadableDateFormatter
+{
+    static NSDateFormatter *formatter = nil;
+	static dispatch_once_t onceToken;
+	dispatch_once(&onceToken, ^{
+		formatter = [[self alloc] init];
+        [formatter setDateFormat:@"EEE MMM d"];
+	});
+	return formatter;
+}
+
 + (NSDateFormatter *)weekDayFormatter
 {
     static NSDateFormatter *formatter = nil;
