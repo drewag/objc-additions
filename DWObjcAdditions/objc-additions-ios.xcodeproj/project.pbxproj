@@ -38,6 +38,7 @@
 		49F2CD9418CE21D800511C2D /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F2CD9318CE21D800511C2D /* UIImage+ImageEffects.m */; };
 		49F2CD9718CE2B9700511C2D /* NSDate+DWStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F2CD9618CE2B9700511C2D /* NSDate+DWStrings.m */; };
 		49F2CDA018CE385600511C2D /* UIView+DWMotionEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F2CD9F18CE385600511C2D /* UIView+DWMotionEffects.m */; };
+		49FEF20418D0C25700A7A5AE /* NSMutableArray+DWHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FEF20318D0C25700A7A5AE /* NSMutableArray+DWHelpers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,8 @@
 		49F2CD9618CE2B9700511C2D /* NSDate+DWStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DWStrings.m"; sourceTree = "<group>"; };
 		49F2CD9E18CE385600511C2D /* UIView+DWMotionEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DWMotionEffects.h"; sourceTree = "<group>"; };
 		49F2CD9F18CE385600511C2D /* UIView+DWMotionEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DWMotionEffects.m"; sourceTree = "<group>"; };
+		49FEF20218D0C25700A7A5AE /* NSMutableArray+DWHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+DWHelpers.h"; sourceTree = "<group>"; };
+		49FEF20318D0C25700A7A5AE /* NSMutableArray+DWHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+DWHelpers.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				49218C1D18CD69BC00ED86DF /* General.h */,
+				49FEF20118D0C23C00A7A5AE /* Extensions */,
 				499D2BB318CD72C000942C36 /* Helpers */,
 				499D2BB418CD72CF00942C36 /* Classes */,
 				499D2BB218CD72AF00942C36 /* SpecHelpers */,
@@ -278,6 +282,15 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		49FEF20118D0C23C00A7A5AE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				49FEF20218D0C25700A7A5AE /* NSMutableArray+DWHelpers.h */,
+				49FEF20318D0C25700A7A5AE /* NSMutableArray+DWHelpers.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -359,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FEF20418D0C25700A7A5AE /* NSMutableArray+DWHelpers.m in Sources */,
 				49218C0518CD66FB00ED86DF /* DWPlaceholderTextView.m in Sources */,
 				49D2CE0218CD5D79007505AF /* DWOrientationDeferedNavigationController.m in Sources */,
 				49F2CD9418CE21D800511C2D /* UIImage+ImageEffects.m in Sources */,

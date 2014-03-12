@@ -6,6 +6,9 @@
 //  Copyright (c) 2013 Drewag, LLC. All rights reserved.
 //
 
+// Extensions
+#import "NSMutableArray+DWHelpers.h"
+
 // Helpers
 #import "DWCGRectHelpers.h"
 
