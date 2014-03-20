@@ -8,7 +8,6 @@
 
 #import "NSObject+DWAlert.h"
 
-#import <UIKit/UIKit.h>
 #import <objc/runtime.h>
 
 @interface BlockAlertViewDelegate : NSObject<UIAlertViewDelegate>
@@ -39,12 +38,12 @@
 
 @implementation NSObject (DWAlert)
 
-- (void)displayAlertWithTitle:(NSString *)title
-                      message:(NSString *)message
-            cancelButtonTitle:(NSString *)cancelButtonTitle
-            otherButtonTitles:(NSArray *)otherButtonTitles
+- (UIAlertView *)displayAlertWithTitle:(NSString *)title
+                               message:(NSString *)message
+                     cancelButtonTitle:(NSString *)cancelButtonTitle
+                     otherButtonTitles:(NSArray *)otherButtonTitles
 {
-    [self displayAlertWithTitle:title
+    return [self displayAlertWithTitle:title
         message:message
         cancelButtonTitle:cancelButtonTitle
         otherButtonTitles:otherButtonTitles
@@ -52,11 +51,11 @@
     ];
 }
 
-- (void)displayAlertWithTitle:(NSString *)title
-                      message:(NSString *)message
-            cancelButtonTitle:(NSString *)cancelButtonTitle
-            otherButtonTitles:(NSArray *)otherButtonTitles
-              onButtonClicked:(void(^)(NSString *buttonTitle))onButtonClicked
+- (UIAlertView *)displayAlertWithTitle:(NSString *)title
+                               message:(NSString *)message
+                     cancelButtonTitle:(NSString *)cancelButtonTitle
+                     otherButtonTitles:(NSArray *)otherButtonTitles
+                       onButtonClicked:(void(^)(NSString *buttonTitle))onButtonClicked
 {
     BlockAlertViewDelegate *delegate = [[BlockAlertViewDelegate alloc]
         initWithOnButtonClicked:onButtonClicked
@@ -75,6 +74,7 @@
     objc_setAssociatedObject(alert, &sDelegateAssociatedObjectKey, delegate, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 
     [alert show];
+    return alert;
 }
 
 @end

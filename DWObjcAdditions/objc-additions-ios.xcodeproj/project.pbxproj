@@ -12,13 +12,13 @@
 		49218C1F18CD69BC00ED86DF /* DWJsonSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49218C1A18CD69BC00ED86DF /* DWJsonSerializer.m */; };
 		49218C2018CD69BC00ED86DF /* DWTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49218C1C18CD69BC00ED86DF /* DWTaskManager.m */; };
 		499D2BB118CD6FAC00942C36 /* DWFakeTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 499D2BB018CD6FAC00942C36 /* DWFakeTaskManager.m */; };
+		49B8B63618DAA62C00A45F04 /* UIView+DWLoadingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B8B63518DAA62C00A45F04 /* UIView+DWLoadingTest.m */; };
 		49D2CDBA18CD1FF2007505AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDB918CD1FF2007505AF /* Foundation.framework */; };
 		49D2CDC818CD1FF2007505AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDC718CD1FF2007505AF /* XCTest.framework */; };
 		49D2CDC918CD1FF2007505AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDB918CD1FF2007505AF /* Foundation.framework */; };
 		49D2CDCB18CD1FF2007505AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDCA18CD1FF2007505AF /* UIKit.framework */; };
 		49D2CDCE18CD1FF2007505AF /* libobjc-additions-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDB618CD1FF2007505AF /* libobjc-additions-ios.a */; };
 		49D2CDD418CD1FF2007505AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49D2CDD218CD1FF2007505AF /* InfoPlist.strings */; };
-		49D2CDD618CD1FF2007505AF /* objc_additions_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDD518CD1FF2007505AF /* objc_additions_iosTests.m */; };
 		49D2CDEE18CD5D22007505AF /* UIView+DWLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDED18CD5D22007505AF /* UIView+DWLoading.m */; };
 		49D2CDEF18CD5D22007505AF /* UIView+DWLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDED18CD5D22007505AF /* UIView+DWLoading.m */; };
 		49D2CDF218CD5D40007505AF /* UIImage+DWFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF118CD5D40007505AF /* UIImage+DWFactory.m */; };
@@ -78,6 +78,7 @@
 		49218C1D18CD69BC00ED86DF /* General.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = General.h; sourceTree = "<group>"; };
 		499D2BAF18CD6FAC00942C36 /* DWFakeTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWFakeTaskManager.h; sourceTree = "<group>"; };
 		499D2BB018CD6FAC00942C36 /* DWFakeTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWFakeTaskManager.m; sourceTree = "<group>"; };
+		49B8B63518DAA62C00A45F04 /* UIView+DWLoadingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DWLoadingTest.m"; sourceTree = "<group>"; };
 		49D2CDB618CD1FF2007505AF /* libobjc-additions-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libobjc-additions-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D2CDB918CD1FF2007505AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49D2CDC618CD1FF2007505AF /* objc-additions-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "objc-additions-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +86,6 @@
 		49D2CDCA18CD1FF2007505AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		49D2CDD118CD1FF2007505AF /* objc-additions-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "objc-additions-iosTests-Info.plist"; sourceTree = "<group>"; };
 		49D2CDD318CD1FF2007505AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		49D2CDD518CD1FF2007505AF /* objc_additions_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objc_additions_iosTests.m; sourceTree = "<group>"; };
 		49D2CDEC18CD5D22007505AF /* UIView+DWLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DWLoading.h"; sourceTree = "<group>"; };
 		49D2CDED18CD5D22007505AF /* UIView+DWLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DWLoading.m"; sourceTree = "<group>"; };
 		49D2CDF018CD5D40007505AF /* UIImage+DWFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DWFactory.h"; sourceTree = "<group>"; };
@@ -181,6 +181,14 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
+		49B8B63218DA9F7900A45F04 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				49B8B63518DAA62C00A45F04 /* UIView+DWLoadingTest.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		49D2CDAD18CD1FF2007505AF = {
 			isa = PBXGroup;
 			children = (
@@ -213,7 +221,7 @@
 		49D2CDCF18CD1FF2007505AF /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				49D2CDD518CD1FF2007505AF /* objc_additions_iosTests.m */,
+				49B8B63218DA9F7900A45F04 /* Extensions */,
 				49D2CDD018CD1FF2007505AF /* Supporting Files */,
 			);
 			name = Tests;
@@ -403,9 +411,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B8B63618DAA62C00A45F04 /* UIView+DWLoadingTest.m in Sources */,
 				49D2CE0318CD5D79007505AF /* DWOrientationDeferedNavigationController.m in Sources */,
 				49D2CE0C18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m in Sources */,
-				49D2CDD618CD1FF2007505AF /* objc_additions_iosTests.m in Sources */,
 				49D2CDF718CD5D4C007505AF /* UIDevice+DWHardware.m in Sources */,
 				49D2CDFF18CD5D70007505AF /* DWObservableTextView.m in Sources */,
 				49D2CDF318CD5D40007505AF /* UIImage+DWFactory.m in Sources */,

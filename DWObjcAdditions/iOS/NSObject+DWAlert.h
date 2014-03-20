@@ -6,19 +6,19 @@
 //  Copyright (c) 2013 Drewag, LLC. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface NSObject (DWAlert)
 
-- (void)displayAlertWithTitle:(NSString *)title
-                      message:(NSString *)message
-            cancelButtonTitle:(NSString *)cancelButtonTitle
-            otherButtonTitles:(NSArray *)otherButtonTitles;
+- (UIAlertView *)displayAlertWithTitle:(NSString *)title
+                               message:(NSString *)message
+                     cancelButtonTitle:(NSString *)cancelButtonTitle
+                     otherButtonTitles:(NSArray *)otherButtonTitles;
 
-- (void)displayAlertWithTitle:(NSString *)title
-                      message:(NSString *)message
-            cancelButtonTitle:(NSString *)cancelButtonTitle
-            otherButtonTitles:(NSArray *)otherButtonTitles
-              onButtonClicked:(void(^)(NSString *buttonTitle))onButtonClicked;
+- (UIAlertView *)displayAlertWithTitle:(NSString *)title
+                               message:(NSString *)message
+                     cancelButtonTitle:(NSString *)cancelButtonTitle
+                     otherButtonTitles:(NSArray *)otherButtonTitles
+                       onButtonClicked:(void(^)(NSString *buttonTitle))onButtonClicked;
 
 @end
