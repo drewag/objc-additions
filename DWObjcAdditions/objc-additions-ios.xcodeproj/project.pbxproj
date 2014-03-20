@@ -186,7 +186,6 @@
 			children = (
 				49218C0818CD699700ED86DF /* General */,
 				49D2CDEB18CD5D0F007505AF /* iOS */,
-				49D2CDCF18CD1FF2007505AF /* objc-additions-iosTests */,
 				49D2CDB818CD1FF2007505AF /* Frameworks */,
 				49D2CDB718CD1FF2007505AF /* Products */,
 			);
@@ -211,13 +210,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		49D2CDCF18CD1FF2007505AF /* objc-additions-iosTests */ = {
+		49D2CDCF18CD1FF2007505AF /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				49D2CDD518CD1FF2007505AF /* objc_additions_iosTests.m */,
 				49D2CDD018CD1FF2007505AF /* Supporting Files */,
 			);
-			path = "objc-additions-iosTests";
+			name = Tests;
+			path = "../objc-additions-iosTests";
 			sourceTree = "<group>";
 		};
 		49D2CDD018CD1FF2007505AF /* Supporting Files */ = {
@@ -236,6 +236,7 @@
 				49D2CE0818CD5D89007505AF /* Extensions */,
 				49D2CE0D18CD5DFE007505AF /* View */,
 				49D2CE0E18CD5E0F007505AF /* Controller */,
+				49D2CDCF18CD1FF2007505AF /* Tests */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -539,7 +540,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "objc-additions-ios/objc-additions-ios-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -559,7 +560,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "objc-additions-ios/objc-additions-ios-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "objc-additions-iosTests/objc-additions-iosTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
