@@ -13,6 +13,7 @@
 		49218C2018CD69BC00ED86DF /* DWTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49218C1C18CD69BC00ED86DF /* DWTaskManager.m */; };
 		499D2BB118CD6FAC00942C36 /* DWFakeTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 499D2BB018CD6FAC00942C36 /* DWFakeTaskManager.m */; };
 		49B8B63618DAA62C00A45F04 /* UIView+DWLoadingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B8B63518DAA62C00A45F04 /* UIView+DWLoadingTest.m */; };
+		49B8B63918DAAAC900A45F04 /* UIView+DWMotionEffectsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B8B63718DAA80000A45F04 /* UIView+DWMotionEffectsTest.m */; };
 		49D2CDBA18CD1FF2007505AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDB918CD1FF2007505AF /* Foundation.framework */; };
 		49D2CDC818CD1FF2007505AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDC718CD1FF2007505AF /* XCTest.framework */; };
 		49D2CDC918CD1FF2007505AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDB918CD1FF2007505AF /* Foundation.framework */; };
@@ -20,21 +21,13 @@
 		49D2CDCE18CD1FF2007505AF /* libobjc-additions-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDB618CD1FF2007505AF /* libobjc-additions-ios.a */; };
 		49D2CDD418CD1FF2007505AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49D2CDD218CD1FF2007505AF /* InfoPlist.strings */; };
 		49D2CDEE18CD5D22007505AF /* UIView+DWLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDED18CD5D22007505AF /* UIView+DWLoading.m */; };
-		49D2CDEF18CD5D22007505AF /* UIView+DWLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDED18CD5D22007505AF /* UIView+DWLoading.m */; };
 		49D2CDF218CD5D40007505AF /* UIImage+DWFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF118CD5D40007505AF /* UIImage+DWFactory.m */; };
-		49D2CDF318CD5D40007505AF /* UIImage+DWFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF118CD5D40007505AF /* UIImage+DWFactory.m */; };
 		49D2CDF618CD5D4C007505AF /* UIDevice+DWHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF518CD5D4C007505AF /* UIDevice+DWHardware.m */; };
-		49D2CDF718CD5D4C007505AF /* UIDevice+DWHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF518CD5D4C007505AF /* UIDevice+DWHardware.m */; };
 		49D2CDFA18CD5D6A007505AF /* DWObservableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF918CD5D6A007505AF /* DWObservableTextField.m */; };
-		49D2CDFB18CD5D6A007505AF /* DWObservableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDF918CD5D6A007505AF /* DWObservableTextField.m */; };
 		49D2CDFE18CD5D70007505AF /* DWObservableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDFD18CD5D70007505AF /* DWObservableTextView.m */; };
-		49D2CDFF18CD5D70007505AF /* DWObservableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CDFD18CD5D70007505AF /* DWObservableTextView.m */; };
 		49D2CE0218CD5D79007505AF /* DWOrientationDeferedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0118CD5D79007505AF /* DWOrientationDeferedNavigationController.m */; };
-		49D2CE0318CD5D79007505AF /* DWOrientationDeferedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0118CD5D79007505AF /* DWOrientationDeferedNavigationController.m */; };
 		49D2CE0618CD5D86007505AF /* NSObject+DWAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0518CD5D86007505AF /* NSObject+DWAlert.m */; };
-		49D2CE0718CD5D86007505AF /* NSObject+DWAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0518CD5D86007505AF /* NSObject+DWAlert.m */; };
 		49D2CE0B18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0A18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m */; };
-		49D2CE0C18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2CE0A18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m */; };
 		49F2CD9418CE21D800511C2D /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F2CD9318CE21D800511C2D /* UIImage+ImageEffects.m */; };
 		49F2CD9718CE2B9700511C2D /* NSDate+DWStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F2CD9618CE2B9700511C2D /* NSDate+DWStrings.m */; };
 		49F2CDA018CE385600511C2D /* UIView+DWMotionEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F2CD9F18CE385600511C2D /* UIView+DWMotionEffects.m */; };
@@ -79,6 +72,7 @@
 		499D2BAF18CD6FAC00942C36 /* DWFakeTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWFakeTaskManager.h; sourceTree = "<group>"; };
 		499D2BB018CD6FAC00942C36 /* DWFakeTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWFakeTaskManager.m; sourceTree = "<group>"; };
 		49B8B63518DAA62C00A45F04 /* UIView+DWLoadingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DWLoadingTest.m"; sourceTree = "<group>"; };
+		49B8B63718DAA80000A45F04 /* UIView+DWMotionEffectsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DWMotionEffectsTest.m"; sourceTree = "<group>"; };
 		49D2CDB618CD1FF2007505AF /* libobjc-additions-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libobjc-additions-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D2CDB918CD1FF2007505AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49D2CDC618CD1FF2007505AF /* objc-additions-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "objc-additions-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				49B8B63518DAA62C00A45F04 /* UIView+DWLoadingTest.m */,
+				49B8B63718DAA80000A45F04 /* UIView+DWMotionEffectsTest.m */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -411,15 +406,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B8B63918DAAAC900A45F04 /* UIView+DWMotionEffectsTest.m in Sources */,
 				49B8B63618DAA62C00A45F04 /* UIView+DWLoadingTest.m in Sources */,
-				49D2CE0318CD5D79007505AF /* DWOrientationDeferedNavigationController.m in Sources */,
-				49D2CE0C18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m in Sources */,
-				49D2CDF718CD5D4C007505AF /* UIDevice+DWHardware.m in Sources */,
-				49D2CDFF18CD5D70007505AF /* DWObservableTextView.m in Sources */,
-				49D2CDF318CD5D40007505AF /* UIImage+DWFactory.m in Sources */,
-				49D2CDEF18CD5D22007505AF /* UIView+DWLoading.m in Sources */,
-				49D2CE0718CD5D86007505AF /* NSObject+DWAlert.m in Sources */,
-				49D2CDFB18CD5D6A007505AF /* DWObservableTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +542,12 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "objc-additions-iosTests/objc-additions-iosTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -570,6 +564,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "objc-additions-iosTests/objc-additions-iosTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
