@@ -15,6 +15,7 @@
 #import "NSDateFormatter+DWDateFormats.h"
 #import "NSDate+DWStrings.h"
 #import "UIImage+ImageEffects.h"
+#import "NSObject+DWNotifications.h"
 
 // View
 #import "DWObservableTextField.h"

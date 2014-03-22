@@ -70,7 +70,7 @@
         [alert addButtonWithTitle:otherButtonTitle];
     }
 
-    static const NSString *sDelegateAssociatedObjectKey = @"Delegate";
+    static const NSString *sDelegateAssociatedObjectKey = @"DWAlertDelegate";
     objc_setAssociatedObject(alert, &sDelegateAssociatedObjectKey, delegate, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 
     [alert show];
