@@ -92,6 +92,18 @@
     return [self classForProperty:property];
 }
 
++ (BOOL)swizzleInstanceMethod:(SEL)sel1 ofClass:(Class)class1 withInstanceMethod:(SEL)sel2 ofClass:(Class)class2
+{
+    Method method1 = class_getInstanceMethod(class1, sel1);
+    Method method2 = class_getInstanceMethod(class2, sel2);
+
+    if (method1 && method2) {
+        method_exchangeImplementations(method1, method2);
+        return YES;
+    }
+    return NO;
+}
+
 #pragma mark - Private Methods
 
 + (Class)classForProperty:(objc_property_t)property {

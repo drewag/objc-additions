@@ -11,6 +11,7 @@
 		49218C1E18CD69BC00ED86DF /* DWClassHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 49218C1718CD69BC00ED86DF /* DWClassHelper.m */; };
 		49218C1F18CD69BC00ED86DF /* DWJsonSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49218C1A18CD69BC00ED86DF /* DWJsonSerializer.m */; };
 		49218C2018CD69BC00ED86DF /* DWTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49218C1C18CD69BC00ED86DF /* DWTaskManager.m */; };
+		495AA09A18E1DF50008B7AF3 /* DWAlertSpecHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 495AA09918E1DF50008B7AF3 /* DWAlertSpecHelper.m */; };
 		4960B9FA18DD1899005EFD9C /* NSObject+DWNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960B9F918DD1899005EFD9C /* NSObject+DWNotifications.m */; };
 		499D2BB118CD6FAC00942C36 /* DWFakeTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 499D2BB018CD6FAC00942C36 /* DWFakeTaskManager.m */; };
 		49B8B63618DAA62C00A45F04 /* UIView+DWLoadingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B8B63518DAA62C00A45F04 /* UIView+DWLoadingTest.m */; };
@@ -70,6 +71,8 @@
 		49218C1B18CD69BC00ED86DF /* DWTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWTaskManager.h; sourceTree = "<group>"; };
 		49218C1C18CD69BC00ED86DF /* DWTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTaskManager.m; sourceTree = "<group>"; };
 		49218C1D18CD69BC00ED86DF /* General.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = General.h; sourceTree = "<group>"; };
+		495AA09818E1DF50008B7AF3 /* DWAlertSpecHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAlertSpecHelper.h; sourceTree = "<group>"; };
+		495AA09918E1DF50008B7AF3 /* DWAlertSpecHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWAlertSpecHelper.m; sourceTree = "<group>"; };
 		4960B9F818DD1899005EFD9C /* NSObject+DWNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DWNotifications.h"; sourceTree = "<group>"; };
 		4960B9F918DD1899005EFD9C /* NSObject+DWNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DWNotifications.m"; sourceTree = "<group>"; };
 		499D2BAF18CD6FAC00942C36 /* DWFakeTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWFakeTaskManager.h; sourceTree = "<group>"; };
@@ -145,6 +148,15 @@
 				499D2BB218CD72AF00942C36 /* SpecHelpers */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		495AA09718E1DF31008B7AF3 /* SpecHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				495AA09818E1DF50008B7AF3 /* DWAlertSpecHelper.h */,
+				495AA09918E1DF50008B7AF3 /* DWAlertSpecHelper.m */,
+			);
+			name = SpecHelpers;
 			sourceTree = "<group>";
 		};
 		499D2BB218CD72AF00942C36 /* SpecHelpers */ = {
@@ -242,6 +254,7 @@
 				49D2CE0818CD5D89007505AF /* Extensions */,
 				49D2CE0D18CD5DFE007505AF /* View */,
 				49D2CE0E18CD5E0F007505AF /* Controller */,
+				495AA09718E1DF31008B7AF3 /* SpecHelpers */,
 				49D2CDCF18CD1FF2007505AF /* Tests */,
 			);
 			path = iOS;
@@ -402,6 +415,7 @@
 				49D2CDEE18CD5D22007505AF /* UIView+DWLoading.m in Sources */,
 				49F2CD9718CE2B9700511C2D /* NSDate+DWStrings.m in Sources */,
 				49FEF20D18D0D63400A7A5AE /* NSDate+DWComparisons.m in Sources */,
+				495AA09A18E1DF50008B7AF3 /* DWAlertSpecHelper.m in Sources */,
 				499D2BB118CD6FAC00942C36 /* DWFakeTaskManager.m in Sources */,
 				49218C1E18CD69BC00ED86DF /* DWClassHelper.m in Sources */,
 				49F2CDA018CE385600511C2D /* UIView+DWMotionEffects.m in Sources */,

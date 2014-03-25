@@ -10,12 +10,12 @@
 
 @interface NSObject (DWAlert)
 
-- (UIAlertView *)displayAlertWithTitle:(NSString *)title
+- (void)displayAlertWithTitle:(NSString *)title
                                message:(NSString *)message
                      cancelButtonTitle:(NSString *)cancelButtonTitle
                      otherButtonTitles:(NSArray *)otherButtonTitles;
 
-- (UIAlertView *)displayAlertWithTitle:(NSString *)title
+- (void)displayAlertWithTitle:(NSString *)title
                                message:(NSString *)message
                      cancelButtonTitle:(NSString *)cancelButtonTitle
                      otherButtonTitles:(NSArray *)otherButtonTitles

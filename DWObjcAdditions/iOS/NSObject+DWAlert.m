@@ -38,12 +38,12 @@
 
 @implementation NSObject (DWAlert)
 
-- (UIAlertView *)displayAlertWithTitle:(NSString *)title
+- (void)displayAlertWithTitle:(NSString *)title
                                message:(NSString *)message
                      cancelButtonTitle:(NSString *)cancelButtonTitle
                      otherButtonTitles:(NSArray *)otherButtonTitles
 {
-    return [self displayAlertWithTitle:title
+    [self displayAlertWithTitle:title
         message:message
         cancelButtonTitle:cancelButtonTitle
         otherButtonTitles:otherButtonTitles
@@ -51,7 +51,7 @@
     ];
 }
 
-- (UIAlertView *)displayAlertWithTitle:(NSString *)title
+- (void)displayAlertWithTitle:(NSString *)title
                                message:(NSString *)message
                      cancelButtonTitle:(NSString *)cancelButtonTitle
                      otherButtonTitles:(NSArray *)otherButtonTitles
@@ -74,7 +74,6 @@
     objc_setAssociatedObject(alert, &sDelegateAssociatedObjectKey, delegate, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 
     [alert show];
-    return alert;
 }
 
 @end

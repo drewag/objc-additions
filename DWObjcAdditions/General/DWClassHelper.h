@@ -24,4 +24,6 @@
 
 + (Class)classOfPropertyWithName:(NSString *)propertyName onObject:(NSObject *)object;
 
++ (BOOL)swizzleInstanceMethod:(SEL)sel1 ofClass:(Class)class1 withInstanceMethod:(SEL)sel2 ofClass:(Class)class2;
+
 @end
