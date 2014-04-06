@@ -12,6 +12,8 @@
 
 @interface DWFakeTaskManager : DWTaskManager
 
+@property (nonatomic) BOOL performAllForegroundTasksImmediately;
+
 + (void)executeWithFakeSingleton:(void(^)(DWFakeTaskManager *fakeTaskManager))task;
 
 - (void)performNextBackgroundTask;

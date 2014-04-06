@@ -52,7 +52,12 @@ static DWFakeTaskManager *fakeTaskManager = nil;
 }
 
 - (void)executeTaskInForeground:(void(^)())task {
-    [self.foregroundTasks addObject:[task copy]];
+    if (self.performAllForegroundTasksImmediately) {
+        task();
+    }
+    else {
+        [self.foregroundTasks addObject:[task copy]];
+    }
 }
 
 - (void)performNextForegroundTask {
@@ -72,6 +77,17 @@ static DWFakeTaskManager *fakeTaskManager = nil;
             task();
         }
         [self.backgroundTasks removeObjectAtIndex:0];
+    }
+}
+
+- (void)setPerformAllForegroundTasksImmediately:(BOOL)performAllForegroundTasksImmediately
+{
+    _performAllForegroundTasksImmediately = performAllForegroundTasksImmediately;
+
+    if (_performAllForegroundTasksImmediately) {
+        while (self.foregroundTasks.count > 0) {
+            [self performNextForegroundTask];
+        }
     }
 }
 
