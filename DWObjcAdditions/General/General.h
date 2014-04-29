@@ -9,6 +9,7 @@
 // Extensions
 #import "NSMutableArray+DWHelpers.h"
 #import "NSDate+DWComparisons.h"
+#import "NSDictionary+URLEncoding.h"
 
 // Helpers
 #import "DWCGRectHelpers.h"

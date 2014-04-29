@@ -16,6 +16,7 @@
 		499D2BB118CD6FAC00942C36 /* DWFakeTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 499D2BB018CD6FAC00942C36 /* DWFakeTaskManager.m */; };
 		49B8B63618DAA62C00A45F04 /* UIView+DWLoadingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B8B63518DAA62C00A45F04 /* UIView+DWLoadingTest.m */; };
 		49B8B63918DAAAC900A45F04 /* UIView+DWMotionEffectsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B8B63718DAA80000A45F04 /* UIView+DWMotionEffectsTest.m */; };
+		49BF60611910150500109E93 /* NSDictionary+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BF60601910150500109E93 /* NSDictionary+URLEncoding.m */; };
 		49D2CDBA18CD1FF2007505AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDB918CD1FF2007505AF /* Foundation.framework */; };
 		49D2CDC818CD1FF2007505AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDC718CD1FF2007505AF /* XCTest.framework */; };
 		49D2CDC918CD1FF2007505AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D2CDB918CD1FF2007505AF /* Foundation.framework */; };
@@ -79,6 +80,8 @@
 		499D2BB018CD6FAC00942C36 /* DWFakeTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWFakeTaskManager.m; sourceTree = "<group>"; };
 		49B8B63518DAA62C00A45F04 /* UIView+DWLoadingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DWLoadingTest.m"; sourceTree = "<group>"; };
 		49B8B63718DAA80000A45F04 /* UIView+DWMotionEffectsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DWMotionEffectsTest.m"; sourceTree = "<group>"; };
+		49BF605F1910150500109E93 /* NSDictionary+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+URLEncoding.h"; sourceTree = "<group>"; };
+		49BF60601910150500109E93 /* NSDictionary+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URLEncoding.m"; sourceTree = "<group>"; };
 		49D2CDB618CD1FF2007505AF /* libobjc-additions-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libobjc-additions-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D2CDB918CD1FF2007505AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49D2CDC618CD1FF2007505AF /* objc-additions-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "objc-additions-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -314,6 +317,8 @@
 				49FEF20318D0C25700A7A5AE /* NSMutableArray+DWHelpers.m */,
 				49FEF20B18D0D63400A7A5AE /* NSDate+DWComparisons.h */,
 				49FEF20C18D0D63400A7A5AE /* NSDate+DWComparisons.m */,
+				49BF605F1910150500109E93 /* NSDictionary+URLEncoding.h */,
+				49BF60601910150500109E93 /* NSDictionary+URLEncoding.m */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -407,6 +412,7 @@
 				49D2CDF618CD5D4C007505AF /* UIDevice+DWHardware.m in Sources */,
 				49D2CDF218CD5D40007505AF /* UIImage+DWFactory.m in Sources */,
 				49D2CE0618CD5D86007505AF /* NSObject+DWAlert.m in Sources */,
+				49BF60611910150500109E93 /* NSDictionary+URLEncoding.m in Sources */,
 				49218C1F18CD69BC00ED86DF /* DWJsonSerializer.m in Sources */,
 				49218C2018CD69BC00ED86DF /* DWTaskManager.m in Sources */,
 				49D2CE0B18CD5D9B007505AF /* NSDateFormatter+DWDateFormats.m in Sources */,
